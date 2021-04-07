@@ -1,3 +1,4 @@
+# 리스트를 각각 하나씩으로 최대 분할
 def divine(a:list):
     if len(a) == 1:
         return a
