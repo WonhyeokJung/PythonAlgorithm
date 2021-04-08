@@ -9,8 +9,9 @@ tages : [typora, github, vscode, python,]
 
 
 
-| Algorithm                                                    | LeetCodeProblem                                              | Solution                                                     |
+| LeetCodeProblem                                              | Solution                                                     | Related Algorithm                                            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [MergeSort](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/MergeSort.py) | [241.Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [Click!](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/241.DifferentWaysToAddParentheses.py) |
-|                                                              | [169.Majority Element](leetcode.com/problems/majority-element/) | [Here](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/169.MajorityElement.py) |
+| [169.Majority Element](leetcode.com/problems/majority-element/) | [Here](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/169.MajorityElement.py) | [MergeSort](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/MergeSort.py) |
+| [241.Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [Click!](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/241.DifferentWaysToAddParentheses.py) | [MergeSort](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/MergeSort.py) |
+| [509.Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) |                                                              |                                                              |
 

@@ -1,4 +1,3 @@
-a = "2-1-1"
+import collections
 
-for index, value in enumerate(a):
-    print(index, value)
+a = collections.defaultdict(int)
