@@ -17,4 +17,5 @@ tages : [typora, github, vscode, python,]
 | [344.Reverse String](https://leetcode.com/problems/reverse-string/) | [🍟](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/344.%20Reverse%20String.py) | Two Pointer                                                  |
 | [509.Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Here](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/509.FibonacciNumber.py) |                                                              |
 | 680.Valid Palindrome ll                                      |                                                              |                                                              |
+| [937.Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | [🍔]                                                          | Lambda                                                       |
 
