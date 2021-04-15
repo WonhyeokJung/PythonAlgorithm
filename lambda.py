@@ -1,3 +1,18 @@
+# lambda
+def functionName(parameter):
+    return result
+
+== lambda parameter:result
+
+# example
+(lambda x : x + 1)(3)
+func = lambda x: x + 1
+func(4)
+# 5
+
+#######################################################
+
+# sorted example
 s = ['2 A', '1 B', '4 C', '1 A']
 
 print(sorted(s))
