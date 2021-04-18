@@ -11,6 +11,7 @@ tages : [typora, github, vscode, python,]
 
 | LeetCodeProblem                                              | Solution                                                     | Related Algorithm                                            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Here]()                                                     |                                                              |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [🍳](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/125.%20Valid%20Palindrome.py) |                                                              |
 | [169.Majority Element](leetcode.com/problems/majority-element/) | [🍖](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/169.MajorityElement.py) | [MergeSort](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/MergeSort.py) |
 | [241.Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [🍉](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/241.DifferentWaysToAddParentheses.py) | [MergeSort](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/MergeSort.py) |
