@@ -36,3 +36,33 @@ def merge(left:list, right:list) ->list:
 sample = [69, 10, 30, 2, 16, 8, 31, 22]
 
 print(divine(sample))
+
+# 2. Way not to use pop()
+def divine(a: list):
+    if len(a) == 1:
+        return a
+    middle = len(a) // 2
+    return merge(divine(a[:middle]), divine(a[middle:]))
+
+
+def merge(left: list, right: list) -> list:
+    result = []
+
+    i = 0
+    j = 0
+    while i < len(left) or j < len(right):
+        if i < len(left) and j < len(right):
+            if left[i] <= right[j]:
+                result.append(left[i])
+                i += 1
+            else:
+                result.append(right[j])
+                j += 1
+        elif i < len(left):
+            result.append(left[i])
+            i += 1
+        elif j < len(right):
+            result.append(right[j])
+            j += 1
+
+    return result
