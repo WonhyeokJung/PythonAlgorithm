@@ -2,7 +2,7 @@
 def functionName(parameter):
     return result
 
-== lambda parameter:result
+# == lambda parameter:result
 
 # example
 (lambda x : x + 1)(3)
@@ -24,5 +24,5 @@ s.sort(key=func)  # key = sort 기준 값을 지정(sort key)
 print(s)
 
 # Using Lambda !
-s.sort(key = lambda x: (x.split()[1], x.split()[0]))
+s.sort(key = lambda x: (x.split()[1], x.split()[0]))  #[1]로 선정렬 후 [0]으로 후정렬
 print(s)

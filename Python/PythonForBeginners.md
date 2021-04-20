@@ -57,4 +57,15 @@ variable = input()  # Input from sys.stdin
                  1 0000  # if Most significant bit is 1, it means negative.
 ```
 
-## Formatting
+## Formatting 
+
+```python
+# 9.100000 소숫점 일곱번째 자리에서 여섯번 째로 반올림.
+print(f'#{tc} {"%.6f" % maxs}')
+# ---------------------------------- #
+print(f'#{tc}', end = ' ')
+print(format(maxs, '.6f'))
+# ---------------------------------- #
+print("#{} {}".format(tc, "%.6f" % maxs))
+```
+
