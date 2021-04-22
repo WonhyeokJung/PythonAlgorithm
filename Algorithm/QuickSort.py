@@ -31,30 +31,27 @@ array = [69, 10, 30, 2, 16, 8, 31, 22]
 
 
 # 2. Hoare Partition
-def quicksort(arr, start, end):
-    if start < end:
-        pivot = partition(arr, start, end)
-        print(pivot, start, end)
-        quicksort(arr, start, pivot-1)
-        quicksort(arr, pivot+1, end)
-    return arr
+def quicksort(arr,l,r):
+    # if l >= r:
+    #     return
+    if l < r:
+        mid = partition(l,r)
+        quicksort(arr, l, mid-1)
+        quicksort(arr, mid+1, r)
 
+def partition(l,r):
+        p = l
+        pivot = array[l]
+        while l <= r:
+            while l <= r and array[l] <= pivot:
+                l += 1
+            while l <= r and array[r] >= pivot:
+                r -= 1
+            if l < r:
+                array[l], array[r] = array[r], array[l]
 
-def partition(arr, left, right):
-    pivot = arr[left]
-    left = left + 1  # pivot 바로 다음거
-    right = right
-
-    while left < right:
-        if arr[left] > pivot:  # arr[L]이 pivot보다 크면 arr[R]값이 pivot보다 작을때까지 이동
-            while left <= right and arr[left] > arr[right]:
-                right -= 1
-            arr[left], arr[right] = arr[right], arr[left]
-        left += 1
-    # left & right 값이 교차되었음.
-    arr[left], arr[right] = arr[right], arr[left]
-    print(arr)
-    return right  # new pivot index
+        array[p], array[r] = array[r], array[p]
+        return r
 
 
 print(quicksort(array, 0, len(array)-1))

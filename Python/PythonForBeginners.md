@@ -6,6 +6,7 @@ import sys
 # Read and Load all contents
 sys.stdin = open("input.txt", "r")
 variable = input()  # Input from sys.stdin
+		 = sys.stdin.readline() # read one line as same way with 'input()'
 
 ```
 
@@ -67,5 +68,7 @@ print(f'#{tc}', end = ' ')
 print(format(maxs, '.6f'))
 # ---------------------------------- #
 print("#{} {}".format(tc, "%.6f" % maxs))
+# ---------------------------------- #
+print(f'#{tc} {maxs:0.6f}')
 ```
 
