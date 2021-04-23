@@ -1,4 +1,8 @@
 # input : Test case, chess maps size(N = N*N)
+import sys
+sys.stdin = open("../Inputs/nqueen_input.txt", "r")
+
+
 def DFS(arr: list, y: int, x: int):  # arr = chess map, y = row, x = column
     global cnt
     arr[y][x] = 1  # 자기자신
