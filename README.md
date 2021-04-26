@@ -1,3 +1,5 @@
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
 ---
 layout: post # 블로그글. page면 일반적인 웹 페이지
 published: true # 배포. false면 main page에 보이지 않음
