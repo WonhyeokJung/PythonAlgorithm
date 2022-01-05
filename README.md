@@ -5,7 +5,7 @@ layout: post # 블로그글. page면 일반적인 웹 페이지
 published: true # 배포. false면 main page에 보이지 않음
 title: "Python Algorithm"
 date: '2021-04-07'
-tages : [typora, github, vscode, python,]
+tags : [typora, github, vscode, python,]
 
 ---
 
@@ -17,6 +17,7 @@ tages : [typora, github, vscode, python,]
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [001. Two Sum](https://leetcode.com/problems/two-sum/)       | [Here](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/001.TwoSum.py) |                                                              |
 | [005. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Here](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/005.Longest%20Palindromic%20Substring.py) | [Two Pointer]                                                |
+| [014. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Here](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/014.LongestCommonPrefix.py) |                                                              |
 | [049.Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Click!](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/049.Group%20Anagrams.py) | [Sorted]                                                     |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [🍳](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/125.%20Valid%20Palindrome.py) |                                                              |
 | [169.Majority Element](leetcode.com/problems/majority-element/) | [🍖](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/169.MajorityElement.py) | [MergeSort](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/Algorithm/MergeSort.py) |
@@ -25,7 +26,7 @@ tages : [typora, github, vscode, python,]
 | [509.Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Here](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/509.FibonacciNumber.py) |                                                              |
 | [680.Valid Palindrome ll](https://leetcode.com/problems/valid-palindrome-ii/) | [Click!](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/680.ValidPalindromeII.py) |                                                              |
 | [819.Most Common Word](https://leetcode.com/problems/most-common-word/) | [🥩](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/819.Most%20Common%20Word.py) | [Regular Expression]                                         |
-| [937.Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | [🍔](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/937.Reorder%20Data%20in%20Log%20Files.py) | [Lambda](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/Python/lambda.py) |
+| [937.Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | [🍔](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/LeetCode/937.ReorderDatainLogFiles.py) | [Lambda](https://github.com/WonhyeokJung/PythonAlgorithm/blob/master/Python/lambda.py) |
 
 
 
